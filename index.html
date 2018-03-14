@@ -16,11 +16,11 @@
 <div class="container">
 
 
-<button class="poop" data-character="laura+palmer">Laura Palmer</button> <button class="poop" data-character="dale+cooper">Dale Cooper</button> <button class="poop" data-character="leland+palmer">Leland Palmer</button> 
-<button class="poop" data-character="sarah+palmer">Sarah Palmer</button> <button class="poop" data-character="audrey+horne">Audrey Horne</button>
-<button class="poop" data-character="donna+hayward">Donna Hayward</button><button class="poop" data-character="gordon+cole">Gordon Cole</button><button class="poop" data-character="frank+truman">Frank Truman</button>
-<button class="poop" data-character="deputy+hawk">Deputy Hawk</button> <button class="poop" data-character="lucy+moran">Lucy Moran</button>
-<button class="poop" data-character="log+lady">Log Lady</button><button class="poop" data-character="phillip+Jeffries">Phillip Jeffries</button>
+<button class="po" data-character="laura+palmer">Laura Palmer</button> <button class="po" data-character="dale+cooper">Dale Cooper</button> <button class="po" data-character="leland+palmer">Leland Palmer</button> 
+<button class="po" data-character="sarah+palmer">Sarah Palmer</button> <button class="po" data-character="audrey+horne">Audrey Horne</button>
+<button class="po" data-character="donna+hayward">Donna Hayward</button><button class="po" data-character="gordon+cole">Gordon Cole</button><button class="po" data-character="frank+truman">Frank Truman</button>
+<button class="po" data-character="deputy+hawk">Deputy Hawk</button> <button class="po" data-character="lucy+moran">Lucy Moran</button>
+<button class="po" data-character="log+lady">Log Lady</button><button class="po" data-character="phillip+Jeffries">Phillip Jeffries</button>
 
 
 
@@ -38,7 +38,7 @@
 //var APIKey = "rGR7h2WkxTuZ9G920doP8fDPnJMO70JB";
 //var twinPeaksCharacters=["laura+palmer", "dale+cooper", "leland+palmer", "sarah+palmer", "audrey+horne", "donna+hayward", "gordon+cole", "frank+truman", "deputy+hawk","lucy-moran","log+lady","phillip+jeffries"]; 
 $(document).ready(function(){
-$('.poop').on('click', function(){
+$('.po').on('click', function(){
   var x = $(this).data('character');
   var queryURL ="http://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=rGR7h2WkxTuZ9G920doP8fDPnJMO70JB&limit=10";
   $.ajax({url:queryURL, method: "GET"})

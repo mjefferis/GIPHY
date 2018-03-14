@@ -17,3 +17,20 @@ body{
 #room{
     margin-top:10px;
 }
+
+button{
+    font:black;
+    background-color:red; 
+    border: 2px solid black;
+    font-family:helvetica; 
+    margin: 2px 2px 2px 2px;
+    
+}
+
+p{
+    font-family:helvetica;
+}
+
+.pop{
+    display:inline;
+}
