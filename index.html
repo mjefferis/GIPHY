@@ -40,7 +40,7 @@
 $(document).ready(function(){
 $('.po').on('click', function(){
   var x = $(this).data('character');
-  var queryURL ="http://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=rGR7h2WkxTuZ9G920doP8fDPnJMO70JB&limit=10";
+  var queryURL ="https://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=rGR7h2WkxTuZ9G920doP8fDPnJMO70JB&limit=10";
   $.ajax({url:queryURL, method: "GET"})
   .done(function(response){
 
