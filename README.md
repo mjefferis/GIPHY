@@ -1,1 +1,1 @@
-# GIPHY
+This app was made using Javascript, jQuery, and HTML/CSS. It also uses JSON from the GIPHY API. A button is created for every character in the TV show, Twin Peaks. When the user clicks a button, 10 GIFS relating to that character are generated. 
